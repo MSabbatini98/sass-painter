@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: $text_color;
+    font-size: $font_normal;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    
+}
+h1 {
+    font-size: $font_big;
+}
+h2 {
+    font-size: $font_titles;
+    line-height:1.3 ;
+}

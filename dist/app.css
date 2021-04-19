@@ -1,3 +1,108 @@
+.mt_1 {
+  margin-top: 20px;
+}
+
+.mt_2 {
+  margin-top: 40px;
+}
+
+.mt_3 {
+  margin-top: 60px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: blue;
+  color: #2c2c2c;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 44px;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 1.3;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+  padding: auto;
+}
+header nav .logo,
+header nav .search_login {
+  width: 10%;
+  margin: 15px;
+}
+header nav .nav_bar ul li {
+  display: inline-block;
+  position: relative;
+  font-weight: bold;
+  padding: 0 10px;
+  font-size: 15px;
+}
+header nav .search_login {
+  text-align: right;
+}
+header nav .search_login * {
+  margin: 0 10px;
+}
+header nav .search_login a {
+  text-decoration: none;
+  color: #2c2c2c;
+}
+
+.articles {
+  display: flex;
+  flex-direction: column;
+}
+.articles .paragraph__s {
+  margin: 0 auto;
+  max-width: 1280px;
+  line-height: 1.5;
+  font-size: 18px;
+  max-width: 800px;
+  text-align: center;
+  display: block;
+  padding: 0px;
+}
+.articles .paragraph {
+  margin: 0 auto;
+  max-width: 1280px;
+  line-height: 1.5;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+}
+.articles .paragraph > * {
+  padding: 25px;
+}
+.articles .paragraph img {
+  width: 59%;
+}
+.articles .paragraph_text {
+  width: 40%;
+  align-self: center;
+}
+.articles .paragraph a {
+  display: block;
+  color: #1473e6;
+  text-decoration: none;
+}
+.articles .paragraph a:hover {
+  text-decoration: underline;
+}
+.articles .reverse {
+  flex-direction: row-reverse;
 }

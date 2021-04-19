@@ -1,0 +1,22 @@
+// colors
+$main_color : #1473e6;
+$main_color_dark : #0d660d;
+$text_color : #2c2c2c;
+
+// font sizes
+
+$font_big : 44px;
+$font_titles : 36px;
+$font_normal : 18px;
+$font_small : 15px;
+
+//box_sizes 
+$paragraph__n : 1280px;
+$paragraph__s : 800px;
+
+// margins
+@for $i from 1 through 3 {
+    .mt_#{$i} {
+    margin-top: 20px * $i;
+    }
+}
